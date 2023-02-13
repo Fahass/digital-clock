@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.content{
+    background-image: url(bg.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+.heading{
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: arial;
+    color: #cecece;
+    text-transform: uppercase;
+    margin: 2rem 0;
+}
+.border{
+    border: none;
+    border-radius: .5rem;
+    padding: 3rem 5rem;
+    box-shadow: 6px 5px 10px 2px #4f4f53;
+    background: rgba(0, 0, 0, .6);
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 1.5;
+    width: 60%;
+    margin-bottom: 2rem;
+}
+#time, #date{
+    font-size: 6rem;
+    font-weight: 700;
+    font-family: monospace;
+    color: #8dabbe;
+}
+P{
+    margin-top: 4rem;
+    opacity: .9;
+    color: #8f8f92;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: arial;
+}
+@media (max-width: 1024px){
+    .border{
+        width: 70%;
+    }
+    #time, #date{
+        font-size: 5rem;
+    }
+}
+@media (max-width: 940px){
+    .border{
+        width: 70%;
+    }
+    #time, #date{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 820px){
+    .border{
+        width: 70%;
+    }
+    #time, #date{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 800px){
+    .border{
+        width: 70%;
+    }
+    #time, #date{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 768px){
+    #time, #date{
+        font-size: 3.6rem;
+    }
+}
+@media (max-width: 640px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 3.8rem;
+    }
+    #time, #date{
+        font-size: 3.5rem;
+    }
+}
+@media (max-width: 542px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 3.4rem;
+    }
+    #time, #date{
+        font-size: 3rem;
+    }
+}
+@media (max-width: 482px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 3.2rem;
+    }
+    #time, #date{
+        font-size: 2.8rem;
+    }
+}
+@media (max-width: 460px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 3.2rem;
+    }
+    #time, #date{
+        font-size: 2.6rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 438px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 3.2rem;
+    }
+    #time, #date{
+        font-size: 2.4rem;
+    }
+}
+@media (max-width: 427px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 3rem;
+    }
+    #time, #date{
+        font-size: 2.2rem;
+    }
+}
+@media (max-width: 414px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    #time, #date{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 395px){
+    .border{
+        width: 90%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 2.4rem;
+    }
+    #time, #date{
+        font-size: 2rem;
+    }
+}
+@media (max-width: 343px){
+    .border{
+        width: 80%;
+        padding: 3rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    #time, #date{
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 325px){
+    .border{
+        width: 80%;
+        padding: 2rem;
+    }
+    .heading{
+        font-size: 2rem;
+    }
+    #time, #date{
+        font-size: 1.5rem;
+    }
+}
